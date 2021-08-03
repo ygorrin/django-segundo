@@ -1,6 +1,4 @@
 from django.shortcuts import render, HttpResponse
-
-from django.shortcuts import render
 from time import gmtime, strftime, localtime
     
 def index(request):
